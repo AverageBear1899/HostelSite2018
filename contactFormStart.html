@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<nav>
+  <ul>
+    <li>Home Page</li>
+    <li><a href="facilities.html">Facilities</a> </li>
+    <li>Prices</li>
+    <li>Cafe</li>
+    <li>Getting Here</li>
+    <li>Contact Us</li>
+  </ul>
+</nav>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Hostel Homepage</title>
+<link href="styleSheet.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1> Backpacker's Hostel</h1>
+  <img src="images/banners/banner.jpg" width="900" height="126"/> </header>
+
+<section class="contentArea">
+  <p> Enter your name and contact details and we'll get in touch with you as soon as possible. </p>
+  <form id="contactForm" action="processInput.php" method="post">
+    <label for="first" class="textLabel">Enter your first name:</label>
+    <input type="text" name="first" id="first" required/>
+    <input type="submit" name="submit" id="submit" value="Submit" />
+  </form>
+</section>
+</body>
+</html>

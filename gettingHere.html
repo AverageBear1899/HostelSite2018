@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<nav>
+  <ul>
+    <li><a href="index.html">Home Page</a> </li>
+    <li><a href="facilities.html">Facilities</a> </li>
+    <li><a href="prices.html">Prices</a> </li>
+	<li><a href="cafe.html">Cafe</a> </li>
+	<li><a href="gettingHere.html">Getting Here</a> </li>
+	<li><a href="contactUs.html">Contact Us</a> </li>
+	<li><a href="admin.html">Admin</a> </li>
+  </ul>
+</nav>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Getting Here</title>
+<link href="styleSheet.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <header>
+  <h1 align="center"> Backpacker's Hostel</h1>
+  <img src='images/banners/banner_black.jpg' class="banner"/>
+  </header>
+  
+<div class="row">
+<div class="col-8">
+<form action="insertGetting.php" method="post">
+  <fieldset>
+    <legend>How Are You Getting Here</legend>
+	
+    Select your primary mode of transport:<br>
+    <select name="selection">
+		<option value="car">car</option>
+		<option value="bus">bus</option>
+		<option value="train">train</option>
+		<option value="bicycle">bicycle</option>
+		<option value="walking">walking</option>
+	</select><br>
+	
+	What forms of transport do you use?<br>
+    car
+	<input type="checkbox" name="car" id="car"/>
+	bus
+	<input type="checkbox" name="bus" id="bus"/>
+	train
+	<input type="checkbox" name="train" id="train"/>
+	bicycle
+	<input type="checkbox" name="bicycle" id="bicycle"/>
+	walking
+	<input type="checkbox" name="walking" id="walking"/>
+	<br>
+	
+	May we include the information you have supplied in our published results?<br>
+    <input type="radio" name="radio" id="yes" value="yes" checked="checked"/>
+	yes
+	<input type="radio" name="radio" id="no" value="no"/>
+	no<br>
+	
+    <br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+</div>
+
+<div class="col-4">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2238.813795514466!2d-4.252630684334158!3d55.865896990731585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4888441f0cd41337%3A0x4d4c36f0571d3978!2sCaledonian+University!5e0!3m2!1sen!2suk!4v1539612200822" width="450" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+
+</body>
+</html>
